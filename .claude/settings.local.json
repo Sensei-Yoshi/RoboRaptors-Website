@@ -4,7 +4,22 @@
       "Bash(git init *)",
       "WebFetch(domain:document-export.canva.com)",
       "mcp__a538b6bb-092d-425f-9c71-2f70b25170c2__export-design",
-      "Bash(curl -sL \"https://export-download.canva.com/T7lxI/DAG1nfT7lxI/-1/0-6270640742778771321.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260523T102224Z&X-Amz-Expires=55651&X-Amz-Signature=47b0abd78a7a6f0a201ed725b1a7b1e816db4a259e52974f6d87c3895f997f33&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2024%20May%202026%2001%3A49%3A55%20GMT\" -o \"2025-2026-portfolio-planning.pdf\")"
+      "Bash(curl -sL \"https://export-download.canva.com/T7lxI/DAG1nfT7lxI/-1/0-6270640742778771321.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260523T102224Z&X-Amz-Expires=55651&X-Amz-Signature=47b0abd78a7a6f0a201ed725b1a7b1e816db4a259e52974f6d87c3895f997f33&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2024%20May%202026%2001%3A49%3A55%20GMT\" -o \"2025-2026-portfolio-planning.pdf\")",
+      "Bash(git config *)",
+      "Bash(git commit -m 'Initial website: 3-page site + portfolio PDF *)",
+      "Bash(open -a \"Google Chrome\" index.html)",
+      "Bash(mkdir -p images)",
+      "Bash(curl -sL \"https://export-download.canva.com/T7lxI/DAG1nfT7lxI/-1/0/0002-4124675527788924751.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260523T080708Z&X-Amz-Expires=67966&X-Amz-Signature=c5b13509df39fa64c123125dff0e90d6f62592442fe1cbeb3c14127def87941e&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2024%20May%202026%2002%3A59%3A54%20GMT\" -o images/team-slide-raw.png)",
+      "Bash(curl -sL \"https://export-download.canva.com/T7lxI/DAG1nfT7lxI/-1/0/0001-9098901315494639643.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260523T025326Z&X-Amz-Expires=87222&X-Amz-Signature=a0991e04a47c41e89e9320d0034c1341c0c5c9a50d575cbb69be3f915fc50844&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2024%20May%202026%2003%3A07%3A08%20GMT\" -o images/cover-slide-raw.png)",
+      "Bash(wait)",
+      "Bash(python3 extract_images.py)",
+      "Bash(python3 debug_grid.py)",
+      "Bash(python3 \"/Users/gaura1/RoboRaptors Website/debug_sections.py\")",
+      "Bash(curl -sL \"https://export-download.canva.com/T7lxI/DAG1nfT7lxI/-1/0/0002-4916183170776196079.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260523T042230Z&X-Amz-Expires=88698&X-Amz-Signature=71d7a1a24b655ec9e1bb87cf23fd53f3b9e2ed8809a5fb61bdee9aa01a0d4396&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2024%20May%202026%2005%3A00%3A48%20GMT\" -o \"/Users/gaura1/RoboRaptors Website/images/team-slide-raw.png\")",
+      "Bash(curl -sL \"https://export-download.canva.com/T7lxI/DAG1nfT7lxI/-1/0/0002-6270640755422878981.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260524%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260524T023323Z&X-Amz-Expires=7297&X-Amz-Signature=40e8607427ea9c950420a421894f8e0de8ab3eadb46825263f1f2bb67b6f5dc4&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2024%20May%202026%2004%3A35%3A00%20GMT\" -o \"/Users/gaura1/RoboRaptors Website/images/team-slide-raw.png\")",
+      "Bash(python3 -)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Add real team photos and logo extracted from Canva portfolio *)"
     ]
   }
 }

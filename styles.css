@@ -4,9 +4,9 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --pink:       #FF1F9B;
-  --pink-light: #ff6ec7;
-  --pink-dark:  #c4006f;
+  --pink:       #FF79C6;
+  --pink-light: #ffb3e1;
+  --pink-dark:  #e055a8;
   --black:      #0a0a0a;
   --dark:       #111111;
   --card:       #181818;
@@ -47,6 +47,11 @@ nav {
 .nav-logo {
   display: flex; align-items: center; gap: 0.7rem;
   text-decoration: none;
+}
+.nav-logo img {
+  height: 40px; width: auto;
+  border-radius: 4px;
+  filter: brightness(0.95);
 }
 .nav-logo .logo-text {
   font-family: 'Gagalin', sans-serif;
@@ -158,16 +163,14 @@ section { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
   transition: border-color 0.25s, transform 0.2s;
 }
 .member-card:hover { border-color: var(--pink); transform: translateY(-4px); }
-.member-avatar {
-  width: 80px; height: 80px;
+.member-photo {
+  width: 90px; height: 90px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--pink-dark), var(--pink));
+  object-fit: cover;
   border: 3px solid #000;
-  display: flex; align-items: center; justify-content: center;
-  font-family: 'Gagalin', sans-serif;
-  font-size: 1.6rem; color: #fff;
   margin: 0 auto 1rem;
-  box-shadow: 0 0 0 3px var(--pink), 0 0 20px rgba(255,31,155,0.35);
+  display: block;
+  box-shadow: 0 0 0 3px var(--pink), 0 0 20px rgba(255,121,198,0.4);
 }
 .member-name {
   font-family: 'Gagalin', sans-serif;
