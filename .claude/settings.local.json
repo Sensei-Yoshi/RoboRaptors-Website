@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "WebFetch(domain:document-export.canva.com)",
+      "mcp__a538b6bb-092d-425f-9c71-2f70b25170c2__export-design",
+      "Bash(curl -sL \"https://export-download.canva.com/T7lxI/DAG1nfT7lxI/-1/0-6270640742778771321.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260523T102224Z&X-Amz-Expires=55651&X-Amz-Signature=47b0abd78a7a6f0a201ed725b1a7b1e816db4a259e52974f6d87c3895f997f33&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2024%20May%202026%2001%3A49%3A55%20GMT\" -o \"2025-2026-portfolio-planning.pdf\")"
+    ]
+  }
+}
