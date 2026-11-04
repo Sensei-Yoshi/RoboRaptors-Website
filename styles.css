@@ -336,3 +336,8 @@ html { scroll-padding-top: 120px; }
 }
 .photo { background: #f5e8e0; }
 .route, .box { border-radius: var(--radius); }
+
+/* Team page placeholder while member profiles are updated */
+.coming-soon { text-align: center; max-width: 640px; margin: 0 auto; padding: 56px 32px; background: var(--blush); border-radius: var(--radius); }
+.coming-soon p { margin-top: 14px; font-size: 1.08rem; }
+.coming-soon .actions { justify-content: center; }
